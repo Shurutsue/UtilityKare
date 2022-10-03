@@ -38,7 +38,7 @@ namespace UtilityKare
         /// Not necessary to call this. It will add the reagents to the ReagentDatabase on each Awake of it.
         /// </summary>
         /// <param name="__instance"></param>
-        public static void OnReagentDatabaseAwake(ref ReagentDatabase __instance)
+        internal static void OnReagentDatabaseAwake(ref ReagentDatabase __instance)
         {
             // Adding custom reagents.
             foreach(CustomReagent customReagent in CustomReagents)

@@ -25,6 +25,9 @@
     <Reference Include="Assembly-CSharp">
       <HintPath>..\Libs\Assembly-CSharp.dll</HintPath>
     </Reference>
+    <Reference Include="PhotonUnityNetworking">
+      <HintPath>..\Libs\PhotonUnityNetworking.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Localization">
       <HintPath>..\Libs\Unity.Localization.dll</HintPath>
     </Reference>
